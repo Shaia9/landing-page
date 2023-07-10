@@ -1,0 +1,30 @@
+body {
+    width: 100vh;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+.header {
+    background-color: darkslategray;
+    width: 100vw;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    
+}
+a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 12px;
+}
+.links {
+    margin-right: 50px;
+}
+
+.intro {
+    background-color: darkslategray;
+    width: 100vw;
+    padding: 200px;
+}

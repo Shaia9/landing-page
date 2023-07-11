@@ -39,12 +39,15 @@ a {
 .intro-text {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 .my-website {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
     flex-wrap: wrap;
+    margin: 0
+    ;
 }
 .intro-button {
     border-radius: 7px;

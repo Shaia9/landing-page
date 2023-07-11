@@ -30,8 +30,40 @@ a {
     width: 100vw;
     color: white;
     flex: 1;
+    padding: 10px 110px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.intro-text {
+    display: flex;
+    flex-direction: column;
+}
+.my-website {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    flex-wrap: wrap;
+}
+.intro-button {
+    border-radius: 7px;
+    padding: 3px 15px ;
+    flex: 0;
+    align-self: flex-start;
+    background-color: #3882F6;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
 }
 
+img {
+    width: 250px;
+    height: auto;
+    max-width: 100%; 
+    margin-top: 30px;
+    
+}
 .second {
     flex: 1;
 }
